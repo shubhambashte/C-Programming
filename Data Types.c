@@ -11,7 +11,9 @@ eg: char test = 'h';
 
 void is an incomplete type. It means "nothing" or "no type".
 
-short and long */
+short and long 
+*/
+
 #include <stdio.h>      
 int main() {
   short a;
@@ -25,8 +27,8 @@ int main() {
   printf("size of long double= %d bytes\n", sizeof(d));
   return 0;
 }
-/*
-signed - allows for storage of both positive and negative numbers
+
+/* signed - allows for storage of both positive and negative numbers
 unsigned - allows for storage of only positive numbers
 
 // valid codes
